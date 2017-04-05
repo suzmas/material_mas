@@ -17,6 +17,9 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
+a {
+  transition: 2s all;
+}
 .demo-avatar {
   width: 48px;
   height: 48px;
@@ -66,16 +69,16 @@ html, body {
   display: flex !important;
   flex-direction: row;
   align-items: center;
-  color: rgba(255, 255, 255, 0.56);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
 }
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
-  background-color: #00BCD4;
+  /*background-color: #00BCD4;*/
   color: #37474F;
 }
 .demo-navigation .mdl-navigation__link .material-icons {
   font-size: 24px;
-  color: rgba(255, 255, 255, 0.56);
+  color: rgba(255, 255, 255, 0.8);
   margin-right: 32px;
 }
 
